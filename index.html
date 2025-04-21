@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="milestone" content="Portfolio" />
+    <!-- TODO: Replace this with your title -->
+    <title>Web Designer Chris Scholl</title>
+    <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/
+		-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-md fixed-top bg-secondary"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a href="#home" class="navbar-brand">
+          <i class="bi bi-person-workspace"> Chris Scholl</i>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav-collapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-collapse">
+          <div class="navbar-nav ms-auto">
+            <a href="#mission-section-target" class="nav-link">Mission</a>
+            <a href="#skills-section-target" class="nav-link">Skills</a>
+            <a href="#contact-section-target" class="nav-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <br />
+
+    <!-- TODO: Paste Navbar code and customize links -->
+
+    <!-- Hero section -->
+    <section id="hero-section">
+      <div class="parent">
+        <img
+          class="headshot"
+          class="img-fluid"
+          src="img/headshot.png"
+          alt="headshot"
+        />
+        <h1>Christopher Scholl</h1>
+        <p>Taking over, one line of code at a time</p>
+      </div>
+    </section>
+    <!-- Mission/Meet-me section -->
+    
+    <section class="container-fluid container-lg mt-4" id="mission-section-target">
+      <h2 class="text-center" id="mission">
+        <i class="bi bi-rocket-takeoff">My Mission</i>
+      </h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img class="missimg" src="img/kobe.jpeg" alt="fitness image" />
+            </div>
+            <div class="col-md-6 mb-4">
+              <p id="caplet" class="text-center">
+                  My mission is to make myself a master of coding. I am learning everything from 
+                  HTML 5, CSS 3, Bootstrap, and JavaScript soon. I am certified in Python which is 
+                  my go to language when it comes to the backend of making websites work and go live on 
+                  the internet. I have done a lot of web applications in school so far and can't wait to 
+                  become an asset for ay company willing to take a risk on me!!!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills section -->
+    <section id="skills-section-target">
+      <div class="container">
+      <h2 class="text-center">
+        <i class="bi bi-tools">   My Skills</i>
+      </h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-3 mb-3">
+          <span>html</span>
+          <div class="icon"><i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
+            <p>
+              Structuring the web framework for frontend websites. All the words and the locations on web pages.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-3">
+          <span>css</span>
+          <div class="icon"><i class="fa fa-css3 fa-2x" aria-hidden="true"></i>
+            <p>
+              The stylings, colors, and designs that are present on all the web pages recently made.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-3">
+          <span>bootstrap</span>
+          <div class="icon"><i class="bi bi-bootstrap h1"></i>
+            <p>
+              Making responsive web pages for all sizes and the most popular web framework currently used for styling rapidly web pages.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-3">
+          <span>python</span>
+          <div class="icon"><i class="bi bi-filetype-py h1"></i>
+            <p>
+              Python is a programming language used for many purposes, including data science, software development, and web applications
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+ 
+    <!-- Contact Section -->
+    <section id="contact-section-target">
+      <div class="container">
+        <h2 class="text-center" id="contact">
+          <i class="bi bi-telephone-forward">  Contact Me</i>
+          <br>
+        </h2>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="icon"><i class="bi bi-github h1"></i>
+              <p>Here is the <a href="https://github.com/chrisscholl16">LINK </a>to my Github profile</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="icon"><i class="bi bi-linkedin h1"></i>
+              <p>Follow this <a href="https://www.linkedin.com/in/chris-scholl-webdesigner">LINK </a>to go to my LinkedIn page</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="icon"><i class="bi bi-envelope-at-fill h1"></i>
+              <p>Send me an <a href="mailto:chscholl@asu.edu">EMAIL</a> at chscholl@asu.edu for all questions, big or small</p>
+            </div>
+          </div>
+    </section>
+
+    <!-- Carousel -->
+    <section>
+      <div class="container">
+        <h2 class="text-center">Slideshow</h2>
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-interval="false"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://picsum.photos/id/8/200/300
+                "
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-md-block">
+                <h5>Coding </h5>
+                  <p>Coding is fun and great to learn</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://picsum.photos/id/96/200/300
+                "
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-md-block">
+                <h5>Gaming</h5>
+                  <p>Legend of Zelda is a masterpiece</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://picsum.photos/id/201/200/300
+                "
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-md-block">
+                <h5>Apple Products</h5>
+                  <p>I am a huge fan of Apple products</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <section id="footer-section">
+      <footer text-align="center">
+        &copy ChrisScholl WebDesign 2025&trade;
+        <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+        <a href="https://x.com" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+        <a
+          href="https://www.linkedin.com/in/chris-scholl-webdesigner"
+          class="fa fa-linkedin"
+        ></a>
+      </footer>
+    </section>
+
+    <!-- 
+  		TODO: Paste Bootstrap JavaScript script tag from:
+      https://getbootstrap.com/
+  	-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  
+</html>
