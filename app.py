@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 
 #creating a Flask instance
-app = Flask(__name__, template_folder='templates')
+app = Flask(__name__)
 
 #create a route (decorator)
 @app.route('/')
