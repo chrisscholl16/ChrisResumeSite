@@ -6,9 +6,14 @@ footer {
     padding-bottom: 20px;
     background-color: #d4d4d4;
   }
+
+  .nav-link {
+    color: cyan;
+  }
+
   body {
     position: relative;
-    background-color: dodgerblue;
+    background-color: #d4d4d4;
   }
   
   #hero-section {
@@ -92,7 +97,7 @@ footer {
     top: -100px;
   }
   
-  a:link {
+  /* a:link {
     color: white;
     background-color: transparent;
     text-decoration: none;
@@ -102,19 +107,19 @@ footer {
     color: cyan;
     background-color: transparent;
     text-decoration: none;
-  }
+  } */
   
   a:hover {
-    color: yellow;
+    color: red;
     background-color: transparent;
     text-decoration: underline;
   }
   
-  a:active {
+  /* a:active {
     color: white;
     background-color: transparent;
     text-decoration: underline;
-  }
+  } */
   
   .carousel-item img {
     object-fit: cover;
