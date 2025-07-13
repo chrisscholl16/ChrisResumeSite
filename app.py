@@ -12,17 +12,9 @@ def index():
 def about():
     return render_template("about.html")
 
-@app.route('/skills')
-def skills():
-    return render_template("skills.html")
-
 @app.route('/contact')
 def contact():
     return render_template("contact.html")
-
-@app.route('/experience')
-def experience():
-    return render_template("experience.html")
 
 if (__name__) == '__main__':
     app.run(debug=True)
