@@ -8,7 +8,11 @@ footer {
   }
 
   .nav-link {
-    color: cyan;
+    color: dodgerblue;
+  }
+
+  .navbar-brand {
+    color: dodgerblue;
   }
 
   body {
@@ -28,7 +32,7 @@ footer {
   }
   
   h2 {
-    text-shadow: 2px 2px 5px darkblue;
+    text-shadow: 2px 2px 5px dodgerblue;
   }
   
   .headshot {
@@ -53,7 +57,7 @@ footer {
   
   #caplet::first-letter {
     font-size: 30px;
-    color: red;
+    color: dodgerblue;
     font-weight: 350;
   }
   
@@ -77,7 +81,7 @@ footer {
   }
   
   .icon:hover {
-    color: red;
+    color: lime;
   }
   
   section#contact-section-target {
@@ -109,9 +113,9 @@ footer {
   } */
   
   a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
+    color: lime;
+    /* background-color: transparent; */
+    text-decoration: none;
   }
   
   /* a:active {
